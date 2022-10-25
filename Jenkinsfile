@@ -21,6 +21,7 @@ node{
                   "${tomcatBin}\\shutdown.bat"
                   sleep(time:10,unit:"SECONDS") 
                )
+               )
 '''
    }*/
    stage('Deploy to Tomcat'){
